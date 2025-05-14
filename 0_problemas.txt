@@ -1,0 +1,50 @@
+TALLER HERENCIA
+
+
+Ejercicio 1: Herencia Simple - Persona y Estudiante
+Crea una clase Persona con atributos nombre y edad, y un método presentarse()
+que imprima una presentación. Luego, crea una clase Estudiante que herede de
+Persona y agregue el atributo carrera.
+
+Requisitos:
+El estudiante debe heredar el método presentarse() y agregar información sobre la
+carrera, crear al menos un objeto de Estudiante y mostrar su presentación.
+
+
+Ejercicio 2: Herencia con método sobrescrito - Animal y Perro
+Crea una clase base Animal con un método hacer_sonido(). Luego crea una
+subclase Perro que sobrescriba ese método para imprimir "Guau".
+
+Requisitos:
+Crear otra subclase, Gato, que también sobrescriba el método con "Miau".
+Crear un objeto de cada clase e invocar hacer_sonido().
+
+
+Ejercicio 3: Herencia Jerárquica - Vehículos
+Crea una clase Vehiculo con atributos marca y modelo. Luego crea dos subclases:
+Carro, que añade número_de_puertas.
+Moto, que añade tipo_de_motor.
+
+Requisitos:
+Crear objetos de ambas subclases e imprimir todos sus atributos.
+
+
+Ejercicio 4: Herencia Múltiple - Persona, Empleado y Deportista
+Crea tres clases:
+Persona con atributo nombre.
+Empleado con método trabajar().
+Deportista con método entrenar().
+Luego crea una clase EmpleadoDeportista que herede de ambas.
+
+Requisitos:
+Crear un objeto de EmpleadoDeportista que use ambos métodos.
+Mostrar cómo resuelve Python la herencia múltiple (orden MRO si es necesario).
+
+
+Ejercicio 5: Superclase con método __init__() y uso de super()
+Crea una clase Producto con atributos nombre y precio. Luego crea una subclase
+ProductoPerecedero que añada un atributo fecha_vencimiento.
+
+Requisitos:
+Usa super() para llamar al constructor de la clase base.
+Crear un objeto de ProductoPerecedero e imprimir sus atributos.
